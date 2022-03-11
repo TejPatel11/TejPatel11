@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px;
+  border: 1px solid black;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {background-color: blue;
+color: white;}
+  to {background-color: yellow;
+color:black;}
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: white;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px;
+  border: 1px solid black;
+  background-color: blue;
+  
+}
+.one{
+    text-align:center;
+    line-height: 500px;
+    
+}
+.two{
+    text-align:center;
+    line-height: 500px;
+    animation: second 2s linear infinite;
+
+  transition-property: transform;
+
+}
+@keyframes second{
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+    
+
+.three{
+    text-align: center;
+    line-height: 500px;
+    animation: third 4s linear  infinite;
+}
+@keyframes third {
+   100% {
+    transform: translateY(-200px);
+    color:white;
+  }
+  0%{
+    transform: translateX();
+    color:black;
+  }
+  50% {
+    transform: translateY(200px);
+    color:white;
+  }
+  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div>
+  <div class="column1">
+    <h2 class="one">ONE</h2>
+    
+  </div>
+  <div class="column2">
+    <h2 class="two">TWO</h2>
+   
+  </div>
+  <div class="column3" >
+    <h2 class= "three">THREE</h2>
+   
+  </div>
+
+</div>
+</body>
+</html>
