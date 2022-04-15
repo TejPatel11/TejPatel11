@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @TejPatel11
-- 👀 I’m interested in Web Devlopment 
+- 👀 I’m interested in Web Development 
 - 🌱 I’m currently learning Java
 
 <!---
